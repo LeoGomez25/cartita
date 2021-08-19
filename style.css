@@ -10,4 +10,27 @@
     border: 1px solid #aaa;
     margin: 50px;
 }
-
+.navbar{
+    width: 100%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkblue;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 10px;
+}
