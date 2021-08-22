@@ -34,3 +34,36 @@
     text-decoration: none;
     margin-left: 10px;
 }
+footer{
+    position: relative;
+    width: 70%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__opciones{
+    width: 50%;
+}
+.footer__opciones ul{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__opciones ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+.footer__opciones ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.footer__logo{
+    position: relative;
+    width: 50%;
+}
+.footer__logo p{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+}
